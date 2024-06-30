@@ -1,0 +1,25 @@
+.custom-lineTransactionsChart {
+  width: 100%;
+  height: auto;
+  padding: 16px 20px 20px 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  height: 435px;
+
+  &-font {
+    &-head {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19.5px;
+      letter-spacing: 0.02em;
+      color: rgba(0, 0, 0, 1);
+    }
+    &-subhead {
+      color: rgba(110, 110, 110, 1);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17.07px;
+      letter-spacing: 0.02em;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.custom-GoalsGroup-item {
+  padding: 16px 20px 20px 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  &-font {
+    &-head {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19.5px;
+      letter-spacing: 0.02em;
+      color: rgba(0, 0, 0, 1);
+    }
+    &-info {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24.38px;
+      letter-spacing: 0.02em;
+      color: rgba(110, 110, 110, 1);
+      &-accent {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34.13px;
+        letter-spacing: 0.02em;
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+    &-percent {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 17.07px;
+      letter-spacing: 0.02em;
+      color: rgba(110, 110, 110, 1);
+      &-result {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.94px;
+        color: rgba(23, 187, 69, 1);
+      }
+    }
+  }
+}
+.custom-progressLine::after {
+  background-color: rgba(23, 187, 69, 1) !important;
+}
